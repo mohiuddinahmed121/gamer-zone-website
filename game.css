@@ -262,3 +262,46 @@ nav li a {
     top: 70%;
     padding-bottom: 40px;
 }
+
+/* button game section */
+
+.button-section {
+    margin-top: 100px;
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.all-btn {
+    padding-top: 120px;
+}
+
+.btn-game-design {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-game-design img {
+    border-radius: 50px;
+}
+
+.btn-game-design p {
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 700;
+}
