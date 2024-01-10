@@ -188,3 +188,77 @@ nav li a {
     display: flex;
     justify-items: center;
 }
+
+.img-bonus {
+    position: relative;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.watch-content {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+}
+
+.play-watch {
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    top: 35%;
+}
+
+.img-bonus:hover img {
+    filter: grayscale(100%);
+    opacity: 5;
+}
+
+.img-bonus {
+    cursor: pointer;
+}
+
+/*-------------- play-instantly section  ------------- */
+
+.play-instantly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.play-instantly-content {
+    text-align: end;
+    padding-right: 70px;
+}
+
+.play-instantly-color {
+    color: #F948B2;
+}
+
+.play-instantly-h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-games {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.upper-img {
+    position: relative;
+}
+
+.side-img img {
+    width: 200x;
+    height: 250px;
+    border-radius: 8px;
+    position: absolute;
+    right: 80%;
+    top: 70%;
+    padding-bottom: 40px;
+}
