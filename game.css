@@ -305,3 +305,15 @@ nav li a {
     font-size: 12px;
     font-weight: 700;
 }
+
+.btn-game-design:hover {
+    border: 1.5px solid #FF42A5;
+}
+
+.btn-game-design:hover p {
+    color: #FF42A5;
+}
+
+.btn-game-design {
+    cursor: pointer;
+}
