@@ -349,15 +349,16 @@ footer {
 }
 
 .footer-content h6,
-.fa-brands,
+.fa-brands-btn,
 .terms-section p {
     margin-left: 30px;
 }
 
-.footer-icon {
+.footer-icon,
+.fa-brands-btn {
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .terms-section,
