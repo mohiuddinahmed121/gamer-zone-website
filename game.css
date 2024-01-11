@@ -370,3 +370,56 @@ footer {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* responsive media queries */
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    .ul-nav,
+    .banner,
+    .card-section,
+    .play-instantly,
+    .btn-content {
+        flex-direction: column;
+    }
+
+    .ul-nav,
+    .btn-content {
+        gap: 20px;
+    }
+
+    .play-like-div {
+        width: auto;
+        padding-left: 10px;
+    }
+
+    .play-like-div-img {
+        max-width: 470px;
+    }
+
+    .upper-img {
+        width: 30%;
+        height: auto;
+    }
+
+    .card {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .button-section,
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-content,
+    .footer-icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* table or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px) {}
